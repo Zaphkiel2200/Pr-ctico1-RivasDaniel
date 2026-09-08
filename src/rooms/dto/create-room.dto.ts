@@ -1,1 +1,4 @@
-dto ni idea de esto.. -_-'
+export class CreateRoomDto{
+    name!: string;
+    capacity!: number;
+}
