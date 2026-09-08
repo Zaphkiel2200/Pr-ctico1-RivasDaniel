@@ -3,8 +3,8 @@ import { ConfigModule, ConfigService } from "@nestjs/config";
 import { TypeOrmModule } from "@nestjs/typeorm";
 import { AppController } from "./app.controller";
 import { AppService } from "./app.service";
-import { NameModuleModule } from './name-module/name-module.module';
-import { NameModuleModule } from './name-module/name-module.module';
+import { RoomsModule } from './rooms/rooms.module';
+import { ScreeningsModule } from './screenings/screenings.module';
 
 @Module({
   imports: [
